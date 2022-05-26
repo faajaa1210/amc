@@ -1,0 +1,41 @@
+body {
+    background-color: #061111;
+    color: #9ce0db;
+}
+
+.grid_numeros {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid_raices {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+
+.calculos {
+    background-color: rgb(255, 127, 138);
+    color: black;
+    font-size: 20px;
+    margin: 5px;
+    padding: 15px 40px;
+    text-align: center;
+    font-weight: 700;
+}
+
+h1 {
+    text-align: center;
+    color: #fdfdfd;
+}
+
+.button {
+    background-color: #555555; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
